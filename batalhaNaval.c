@@ -1,6 +1,7 @@
 #include <stdio.h>
+#include <stdlip.h>
 
-#define TAMANHO_TABULEIRO 10
+#define TAMANHO_TABULEIRO  10
 #define TAMANHO_NAVIO 3
 #define AGUA 0
 #define NAVIO 3
@@ -61,6 +62,7 @@ int main() {
         }
         printf("\n");
     }
-
+    
+    system("pause")
     return 0;
 }
